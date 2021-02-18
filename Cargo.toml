@@ -1,0 +1,9 @@
+# Alternatively, a Cargo.toml file can be created with a [workspace] section but without a
+# [package] section. This is called a virtual manifest. This is typically useful when there
+# isn't a "primary" package, or you want to keep all the packages organized in separate
+# directories.
+# https://doc.rust-lang.org/cargo/reference/workspaces.html
+[workspace]
+members = [
+    "tepl-*"
+]

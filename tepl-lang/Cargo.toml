@@ -1,0 +1,7 @@
+[package]
+name = "tepl-lang"
+version = "0.1.0"
+authors = ["Nick Gerace", "Daniel Mangum"]
+edition = "2018"
+
+[dependencies]
